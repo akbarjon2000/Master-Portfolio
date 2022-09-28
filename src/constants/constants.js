@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Family-meet',
+    description: "Family-meet is a video-chat full stack app running on Node.js backend and for front end I used Agora Web RTC to connect videos",
+    image: '/images/family-meet.png',
+    tags: ['React', 'Web RTC', 'Node.js', "Styled Components"],
+    source: 'https://github.com/akbarjon2000/video-chat-app',
+    visit: 'https://family-meet.netlify.app/',
+    id: 35,
+  },
+  {
     title: 'Al Quran',
     description: "Al Quran app is developed using React and designed in Figma. Al Quran app lets the users read, listen and understand the meaning of Quran Holy book. It has beautiful design and handmade mp3 player.",
     image: '/images/al_quran.png',
@@ -79,6 +88,11 @@ export const front_end = [
 
 
 export const back_end = [
+  {
+    id: 0,
+    name: "Node.js",
+    image: "/images/node.png"
+  },
   {
     id: 1,
     name: "Firebase",
