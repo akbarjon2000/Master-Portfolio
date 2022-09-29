@@ -94,6 +94,11 @@ export const back_end = [
     image: "/images/node.png"
   },
   {
+    id: 45,
+    name: "Mongo DB",
+    image: "/images/mongo.png"
+  },
+  {
     id: 1,
     name: "Firebase",
     image: "/images/firebase.png"
