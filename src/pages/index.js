@@ -7,9 +7,12 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
+
 const Home = () => {
+
   return (
     <Layout>
+
       <Section grid>
         <Hero />
         <BgAnimation />
@@ -19,6 +22,8 @@ const Home = () => {
       <Timeline />
       <Acomplishments />
     </Layout>
+
+
   );
 };
 

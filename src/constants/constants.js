@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Microsoft Todo',
+    description: "Microsoft to do app is one of the most famous apps in terms of its functionality and brand design. So i developed its replica, and tries to use as much functions as i can.",
+    image: '/images/todo.png',
+    tags: ['React', 'Firebase'],
+    source: 'https://github.com/akbarjon2000/MicrosoftTodo',
+    visit: 'https://microsofttodo.netlify.app/',
+    id: 2,
+  },
+  {
     title: 'Family-meet',
     description: "Family-meet is a video-chat full stack app running on Node.js backend and for front end I used Agora Web RTC to connect videos",
     image: '/images/family-meet.png',
@@ -8,15 +17,15 @@ export const projects = [
     visit: 'https://family-meet.netlify.app/',
     id: 35,
   },
-  {
-    title: 'Al Quran',
-    description: "Al Quran app is developed using React and designed in Figma. Al Quran app lets the users read, listen and understand the meaning of Quran Holy book. It has beautiful design and handmade mp3 player.",
-    image: '/images/al_quran.png',
-    tags: ['React', "Styled Components", "Firebase", "i18next"],
-    source: 'https://github.com/akbarjon2000/Al-Quran',
-    visit: 'https://alquran-demo.netlify.app/',
-    id: 0,
-  },
+  // {
+  //   title: 'Al Quran',
+  //   description: "Al Quran app is developed using React and designed in Figma. Al Quran app lets the users read, listen and understand the meaning of Quran Holy book. It has beautiful design and handmade mp3 player.",
+  //   image: '/images/al_quran.png',
+  //   tags: ['React', "Styled Components", "Firebase", "i18next"],
+  //   source: 'https://github.com/akbarjon2000/Al-Quran',
+  //   visit: 'https://alquran-demo.netlify.app/',
+  //   id: 0,
+  // },
   {
     title: 'Fast Food Delivery',
     description: "Website for fast food delivery with amazing GUI and good functionality for the end-users",
@@ -25,15 +34,6 @@ export const projects = [
     source: 'https://github.com/akbarjon2000/Fastfood',
     visit: 'https://fastfoodakbarjon.netlify.app/',
     id: 1,
-  },
-  {
-    title: 'Microsoft Todo',
-    description: "Microsoft to do app is one of the most famous apps in terms of its functionality and brand design. API is not deployed yet so you can only see the source code!",
-    image: '/images/todo.png',
-    tags: ['React', 'Firebase'],
-    source: 'https://github.com/akbarjon2000/MicrosoftTodo',
-    visit: 'https://microsofttodos.netlify.app/',
-    id: 2,
   },
   {
     title: 'Shopify Store',
